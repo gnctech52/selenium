@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import java.time.Duration;
 import java.util.List;
 
-public class C03_WebelementLocators {
+public class C03_WebelementLocators{
     public static void main(String[] args) {
         System.setProperty("chromeDriver","src/resources/driver/chromedriver.exe");
         WebDriver driver = new ChromeDriver(new ChromeOptions().addArguments("--remote-allow-origins=*"));
